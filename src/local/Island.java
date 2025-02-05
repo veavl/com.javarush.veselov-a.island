@@ -51,7 +51,7 @@ public class Island {
         }
     }
 
-    // Запускаем жизненный цикл
+    // Запускаем жизненный ЦИКЛ
     public synchronized static void runLife(Island island) throws InterruptedException {
 
         // РАБОТАЕМ С КАЖДОЙ ЛОКАЦИЕЙ
