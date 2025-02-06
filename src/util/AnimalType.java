@@ -29,11 +29,7 @@ public enum AnimalType {
         this.maxWeightE = maxWeightE;
         this.iconE = iconE;
     }
-
-    public String getName() {
-        return nameE;
-    }
-
+    
     public int getMaxQuantityE() {
         return maxQuantityE;
     }
