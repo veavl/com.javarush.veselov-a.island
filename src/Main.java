@@ -16,7 +16,7 @@ public class Main {
         System.out.println("НАЧАЛЬНОЕ ЧИСЛО СУЩНОСТЕЙ - ПОСЛЕ ЗАСЕЛЕНИЯ ОСТРОВА");
         island.display();
 
-        Runnable runnable2 = new Runnable() {
+        Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 try {
@@ -30,7 +30,7 @@ public class Main {
         };
 
         for (int i = 0; i < Settings.lifeCycle; i++) {
-            threadPool.execute(runnable2);
+            threadPool.execute(runnable);
             Thread.sleep(1000);
         }
         threadPool.shutdown();
